@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>DataLoaderQueryHandlerWrapper</Title>
+        <Authors> Oleg Shinkarenko &lt;oleg.shinkarenko@gmail.com&gt;</Authors>
+        <Description>GraphQL DataLoader wrapper for QueryHandler (see https://github.com/yavapro/Dapper.ConnectionWrapper)</Description>
+        <PackageProjectUrl>https://github.com/ShinkarenkoOleg/DataLoaderQueryHandlerWrapper</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ShinkarenkoOleg/DataLoaderQueryHandlerWrapper.git</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CQRS.Light" Version="0.0.5" />
+      <PackageReference Include="GraphQL.MetadataIntrospection" Version="0.1.0" />
+    </ItemGroup>
+
+</Project>

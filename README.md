@@ -1,1 +1,1 @@
-# DataLoaderQueryHandlerWrapper
+# This wrapper for QueryHandler (https://github.com/yavapro/Dapper.ConnectionWrapper) uses DataLoader (https://github.com/graphql-dotnet/graphql-dotnet) to delayed data loading.
