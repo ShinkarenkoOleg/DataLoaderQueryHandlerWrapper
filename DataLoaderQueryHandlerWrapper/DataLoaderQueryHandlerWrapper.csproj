@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>0.0.2</PackageVersion>
+        <PackageVersion>0.0.3</PackageVersion>
         <Title>DataLoaderQueryHandlerWrapper</Title>
         <Authors> Oleg Shinkarenko &lt;oleg.shinkarenko@gmail.com&gt;</Authors>
         <Description>GraphQL DataLoader wrapper for QueryHandler (see https://github.com/yavapro/Dapper.ConnectionWrapper)</Description>
